@@ -1,0 +1,33 @@
+{
+    "name": "cristobal/crud-php",
+    "description": "Projecto crud conexion pdo a PostgreSQl",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cristobal",
+            "email": "cristobalmaldonadoo99@gmail.com",
+            "role" : "Owner"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app",
+            "app\\config\\" : "app/config/",
+            "app\\models\\" : "app/models/",
+            "app\\controllers\\" : "app/controllers/",
+            "app\\views\\" : "app/views/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    }
+}
